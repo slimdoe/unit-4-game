@@ -19,7 +19,7 @@ var resetandStart = function () {
 
 //console.log(random_results);
 
-$("#result").html('Sy Crystal Game: ' + random_results);
+$("#result").html('Random results': + random_results);
 
 //this generates 4 crystals in <div>
 for (var i = 0; i < 4; i++) {
