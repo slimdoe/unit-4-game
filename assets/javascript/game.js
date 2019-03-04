@@ -8,10 +8,10 @@ var previous = 0;
 var resetandStart = function () {
     $(".crystals").empty();
 
-    var images = [
-        'https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
+    /*var images = [
+        'https://images.unsplash.com/photo-1521133573892-e44906baee46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'
 
-    ]
+    ]*/
 
 
     random_results = Math.floor(Math.random() * 60) + 30;
@@ -19,7 +19,7 @@ var resetandStart = function () {
 
 //console.log(random_results);
 
-$("#result").html('Random results': + random_results);
+$("#result").html('Random results', + random_results);
 
 //this generates 4 crystals in <div>
 for (var i = 0; i < 4; i++) {
