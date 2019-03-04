@@ -1,15 +1,14 @@
+
 .crystals{
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
     align-items: center;
 
+
+
 }
-
-
-
 .crystal{
-    border:1px solid blue;
+    border:2px solid blue;
     height: 200px;
     width: 200px;
 }
