@@ -34,16 +34,16 @@ for (var i = 0; i < 4; i++) {
 
     /*crystal.css({
         "background-image":"url('"+ images[i]+"')",
-        "background-size":"cover"});*/
-    
+        "background-size":'cover'});*/
+
     $(".crystals").append(crystal);
 
     $("#previous").html("total score" + previous);
-    
+
 };
 
 
-resetAndStart();
+//resetAndStart();
 
 
 //this is an "event delegation"
