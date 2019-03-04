@@ -5,7 +5,7 @@ var previous = 0;
 
 
 
-var resetandStart = function () {
+var resetAndStart = function () {
     $(".crystals").empty();
 
     /*var images = [
@@ -43,7 +43,7 @@ for (var i = 0; i < 4; i++) {
 };
 
 
-//resetAndStart();
+resetAndStart();
 
 
 //this is an "event delegation"
